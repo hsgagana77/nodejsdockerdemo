@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sreedocker123/nodejsdockerdemo"
-        DOCKER_CREDENTIALS = "sreedockerhub"
+        DOCKER_IMAGE = "gaganahs/nodejsdockerdemo"
+        DOCKER_CREDENTIALS = "63b012ba-0bc1-471c-95fc-361459bb388d"
     }
 
     stages {
